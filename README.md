@@ -17,6 +17,7 @@ The library adds a thousands separator and decimal separator to the input value,
 ```html
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="jqueryNumberFormatter.js"></script>
+```html
 
 
 Call the numberFormatter function on a valid jQuery object:
@@ -24,6 +25,8 @@ Call the numberFormatter function on a valid jQuery object:
 $(document).ready(function() {
   $('#myInput').numberFormatter();
 });
+```html
+
 
 ## Options
 The numberFormatter function accepts an optional options object to customize the thousand separator and decimal separator used in the formatted number:
@@ -35,6 +38,8 @@ $(document).ready(function() {
     decimalSeparator: ','
   });
 });
+```html
+
 
 By default, the library uses a comma (,) as the thousand separator and a period (.) as the decimal separator.
 

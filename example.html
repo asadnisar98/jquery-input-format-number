@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Number Formatter Example</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="jquery-input-format-number.js"></script>
+</head>
+<body>
+  <form>
+    <label for="amount">Amount:</label>
+    <input type="text" id="amount" name="amount">
+  </form>
+
+  <script>
+    $(document).ready(function() {
+      $('#amount').numberFormatter({
+        thousandSeparator: ',',
+        decimalSeparator: '.'
+      });
+    });
+  </script>
+</body>
+</html>
